@@ -1,3 +1,33 @@
-/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/* Variables */
+/* Splash */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/www.madebyvadim.com.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxXQUFBO0FBQ0E7RUFDRyxzQkFBQTtBQ0FIOztBREdBO0VBQ0csaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQ0FIOztBREdBO0VBQ0csY0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0FDQUg7O0FER0E7RUFDRyxlQUFBO0FDQUg7O0FER0EsY0FBQTtBQVVBLFdBQUE7QUFFQTtFQUNHLDZGQUFBO0VBQ0EsNEJBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQ1ZIIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

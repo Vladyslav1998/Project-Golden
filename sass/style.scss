@@ -1,6 +1,42 @@
+
+/* Global */
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+body {
+   margin: 0 auto;
+   font-size: 16px;
+   line-height: 1.7;
+   text-align: center;
+}
+
+section {
+   padding: 96px 0;
+}
+
 /* Variables */
 
 $color-one:#FED136;
 $color-two: #FFFFFF;
 $color-three: #222222;
 $color-four: #828282;
+
+$font-one: 'Lora', serif;
+$font-two: 'Roboto', sans-serif;
+
+/* Splash */
+
+.header {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url('/images/www.madebyvadim.com.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   height: 100vh;
+}
