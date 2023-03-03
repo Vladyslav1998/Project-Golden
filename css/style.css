@@ -6,12 +6,12 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 65px;
 }
 
 body {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.7;
   text-align: center;
 }
@@ -23,11 +23,36 @@ section {
 /* Variables */
 /* Splash */
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/images/www.madebyvadim.com.jpg");
+  background-image: url("/images/www.madebyvadim.com.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 100vh;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxXQUFBO0FBQ0E7RUFDRyxzQkFBQTtBQ0FIOztBREdBO0VBQ0csaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQ0FIOztBREdBO0VBQ0csY0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0FDQUg7O0FER0E7RUFDRyxlQUFBO0FDQUg7O0FER0EsY0FBQTtBQVVBLFdBQUE7QUFFQTtFQUNHLDZGQUFBO0VBQ0EsNEJBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQ1ZIIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 48px;
+}
+.navigation li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.main_logo {
+  font-family: "Arizonia", cursive;
+  text-decoration: none;
+  color: #FED136;
+  font-size: 34px;
+}
+
+/* Splash */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxXQUFBO0FBQ0E7RUFDRyxzQkFBQTtBQ0FIOztBREdBO0VBQ0csaUJBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQ0FIOztBREdBO0VBQ0csY0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0FDQUg7O0FER0E7RUFDRyxlQUFBO0FDQUg7O0FER0EsY0FBQTtBQVdBLFdBQUE7QUFFQTtFQUNHLHdEQUFBO0VBQ0EsNEJBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQ1hIOztBRGNBO0VBQ0csYUFBQTtFQUNBLDhCQUFBO0VBQ0EsaUJBQUE7QUNYSDtBRGFHO0VBQ0cscUJBQUE7RUFDQSxpQkFBQTtBQ1hOO0FEYU07RUFDRyxjQTVCRztFQTZCSCxxQkFBQTtFQUNBLGlDQXpCRTtFQTBCRixnQkFBQTtBQ1hUOztBRGdCQTtFQUNHLGdDQS9CVztFQWdDWCxxQkFBQTtFQUNBLGNBeENRO0VBeUNSLGVBQUE7QUNiSDs7QURnQkEsV0FBQSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

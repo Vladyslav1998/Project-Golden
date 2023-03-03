@@ -7,12 +7,12 @@
 .container {
    max-width: 1140px;
    margin: 0 auto;
-   padding: 0 20px;
+   padding: 0 65px;
 }
 
 body {
    margin: 0 auto;
-   font-size: 16px;
+   font-size: 14px;
    line-height: 1.7;
    text-align: center;
 }
@@ -30,13 +30,41 @@ $color-four: #828282;
 
 $font-one: 'Lora', serif;
 $font-two: 'Roboto', sans-serif;
+$font-golden: 'Arizonia', cursive;
 
 /* Splash */
 
 .header {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url('/images/www.madebyvadim.com.jpg');
+   background-image: url('/images/www.madebyvadim.com.jpg');
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
    height: 100vh;
 }
+
+.navigation {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 22px;
+
+   li {
+      display: inline-block;
+      margin-left: 48px;
+
+      a {
+         color: $color-two;
+         text-decoration: none;
+         font-family: $font-two;
+         font-weight: 600;
+      }
+   }
+}
+
+.main_logo {
+   font-family: $font-golden;
+   text-decoration: none;
+   color: $color-one;
+   font-size: 34px;
+}
+
+/* Splash */
