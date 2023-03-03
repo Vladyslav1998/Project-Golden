@@ -34,7 +34,7 @@ $font-golden: 'Arizonia', cursive;
 
 /* Splash */
 
-.header {
+.nav {
    background-image: url('/images/www.madebyvadim.com.jpg');
    background-repeat: no-repeat;
    background-position: center center;
@@ -45,19 +45,6 @@ $font-golden: 'Arizonia', cursive;
 .navigation {
    display: flex;
    justify-content: space-between;
-   padding-top: 22px;
-
-   li {
-      display: inline-block;
-      margin-left: 48px;
-
-      a {
-         color: $color-two;
-         text-decoration: none;
-         font-family: $font-two;
-         font-weight: 600;
-      }
-   }
 }
 
 .main_logo {
@@ -68,3 +55,9 @@ $font-golden: 'Arizonia', cursive;
 }
 
 /* Splash */
+
+.splash {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
