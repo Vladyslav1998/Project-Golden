@@ -45,6 +45,24 @@ $font-golden: 'Arizonia', cursive;
 .navigation {
    display: flex;
    justify-content: space-between;
+   padding: 32px 0 12px 0;
+
+   ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+
+      li {
+         display: inline-block;
+         margin-right: 42px;
+
+         a {
+            text-decoration: none;
+            color: $color-two;
+            font-size: 16px;
+         }
+      }
+   }
 }
 
 .main_logo {
