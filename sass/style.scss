@@ -123,3 +123,22 @@ $font-golden: 'Arizonia', cursive;
    color: $color-one;
    background: $color-three;
 }
+
+/* Services */
+
+.section_title {
+   color: $color-three;
+   font-size: 45px;
+   font-family: $font-two;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin: 0;
+}
+
+.section_subtitle {
+   color: $color-four;
+   font-size: 16px;
+   font-family: $font-one;
+   letter-spacing: 1px;
+   margin: 0;
+}
