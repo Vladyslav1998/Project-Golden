@@ -140,5 +140,15 @@ $font-golden: 'Arizonia', cursive;
    font-size: 16px;
    font-family: $font-one;
    letter-spacing: 1px;
-   margin: 0;
+   margin: 0 0 62px 0;
+}
+
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.wrapp {
+   flex: 0 0 33.333%;
 }
